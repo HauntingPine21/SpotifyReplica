@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify UI</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="top-menu">
-        <div class="logo">Spotify</div>
+        <div class="logo"><i class="fab fa-spotify"></i> Spotify</div>
         <div class="top-menu-items">
-            <a href="#">Inicio</a>
-            <a href="#">Buscar</a>
-            <a href="#">Tu Biblioteca</a>
+
+            <a href="#"><i class="fas fa-home"></i> Inicio</a>
+            
+            <a href="#"><i class="fas fa-book"></i> Tu Biblioteca</a>
+            <form action="#" method="get" class="search-form">
+                <input type="text" placeholder="Buscar..." class="search-bar">
+                <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+            </form>
         </div>
     </div>
     <div class="container">
@@ -27,12 +33,22 @@
         </aside>
         <main class="main-content">
             <section>
-                <h2>Sección 1</h2>
-                <p>Contenido de la sección 1</p>
+                <h2>Popular Radio</h2>
+                <div class="playlist">
+                    <img src="imagen/1.png" alt="Radio" class="playlist-image">
+                    <img src="imagen/2.png" alt="Radio" class="playlist-image">
+                    <img src="imagen/3.png" alt="Radio" class="playlist-image">
+                    <p>más</p>
+                </div>
             </section>
             <section>
-                <h2>Sección 2</h2>
-                <p>Contenido de la sección 2</p>
+                <h2>Popular Albums</h2>
+                <div class="playlist">
+                    <img src="imagen/4.png" alt="Radio" class="playlist-image">
+                    <img src="imagen/5.png" alt="Radio" class="playlist-image">
+                    <img src="imagen/6.png" alt="Radio" class="playlist-image">
+                    <p>más</p>
+                </div>
             </section>
         </main>
     </div>
