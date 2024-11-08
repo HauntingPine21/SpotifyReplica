@@ -21,14 +21,21 @@ body {
 .top-menu-items {
     display: flex;
     align-items: center;
-    flex-grow: 1;
+    gap: 20px; /* Espaciado entre los elementos */
+}
+
+.top-menu-items a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px; /* Espaciado adicional si es necesario */
+    font-size: 16px; /* Ajusta el tamaño de la fuente si lo deseas */
 }
 
 .search-form {
     display: flex;
     align-items: center;
     margin-left: auto; /* Alinea la barra de búsqueda a la derecha */
-    width: 250px; /* Ajusta el ancho según lo necesites */
+    width: 250px;
 }
 
 .search-bar {
@@ -94,12 +101,16 @@ body {
 
 .playlist {
     display: flex;
-    gap: 10px; /* Espacio entre las imágenes */
-    flex-wrap: wrap; /* Permite que las imágenes salten a una nueva línea si es necesario */
+    gap: 10px; 
+    flex-wrap: wrap; 
+}
+
+.playlist a{
+    color: #1db954;
 }
 
 .playlist-image {
-    width: 150px; /* Ajusta el ancho según tus necesidades */
-    height: auto; /* Mantiene la proporción de la imagen */
-    border-radius: 8px; /* Bordes redondeados opcionales */
+    width: 150px; 
+    height: auto; 
+    border-radius: 8px; 
 }
