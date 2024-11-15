@@ -11,72 +11,87 @@
 </head>
 <body>
     <div class="top-menu">
-        <div class="logo"><i class="fab fa-spotify"></i> Spotify</div>
-        <div class="top-menu-items">
+        <div class="logo"><i class="fab fa-spotify"></i></div>
 
-            <a href="#"><i class="fas fa-home"></i> Inicio</a>
-            
-            <a href="#"><i class="fas fa-book"></i> Tu Biblioteca</a>
-
-
-            <a href="#"><i class="fas fa-bell"></i></a>
-
-
-
+        <div class="top-menu-center">
+            <a href="#" class="home-button">
+                <i class="fas fa-home"></i>
+            </a>
             <form action="#" method="get" class="search-form">
-                <input type="text" placeholder="Buscar..." class="search-bar">
+                <input type="text" placeholder="¿Qué quieres reproducir?" class="search-bar">
                 <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
             </form>
+        </div>
 
+
+
+        <div class="top-menu-right">
+            <button class="sign-up">Sign Up</button>
+            <button class="log-in">Log In</button>
         </div>
     </div>
     <div class="container">
         <aside class="side-menu">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Explorar</a></li>
-                <li><a href="#">Tus Playlists</a></li>
-                <li><a href="#">Tus Favoritos</a></li>
-            </ul>
+            <div class="library-header">
+                <a href="#" class="library-link">
+                    <i class="fas fa-book"></i>Tu biblioteca
+                </a>
+                <a href="#" class="add-icon">+</a>
+            </div>
+            <button class="create-playlist">Crea tu primer playlist</button>
+            <button class="search-podcast">Buscar podcast</button>
+            <div class="legal-links">
+                <a href="#">Legal</a>
+                <a href="#">Safety & Privacy Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">About Ads</a>
+                <a href="#">Accessibility</a>
+                <a class="Cookies" href="#">Cookies</a>
+            </div>
         </aside>
         <main class="main-content">
-            <section>
-                <h2>Popular Radio</h2>
-                <div class="playlist">
-
-                    <img src="imagen/7.png" alt="Radio" class="playlist-image">
-                    <img src="imagen/15.jpg" alt="Radio" class="playlist-image">
-                    <img src="imagen/16.jpg" alt="Radio" class="playlist-image">
-                    <img src="imagen/18.jpg" alt="Radio" class="playlist-image">
-                    <img src="imagen/19.jpg" alt="Radio" class="playlist-image">
-                    <img src="imagen/20.jpg" alt="Radio" class="playlist-image">
-                    <a href="#">Más</a>
+            <section class="artist-section">
+                <h2>Popular artists <a href="#" class="view-all">Ver todos</a></h2>
+                <div class="artist-list">
+                    <img src="imagen/tyler.webp" alt="Artista 1" class="artist-image">
+                    <img src="imagen/nata.jpeg" alt="Artista 1" class="artist-image">
+                    <img src="imagen/badbunny.png" alt="Artista 2" class="artist-image">
+                    <img src="imagen/linkin.jpeg" alt="Artista 3" class="artist-image">
+                    <img src="imagen/Kali.jpeg" alt="Artista 3" class="artist-image">
+                    <img src="imagen/joji.jpeg" alt="Artista 3" class="artist-image">
                 </div>
             </section>
-            <section>
-                <h2>Popular Albums</h2>
-                <div class="playlist">
-
-                    <img src="imagen/10.jpg" alt="Radio" class="playlist-image">
-                    <img src="imagen/11.jpg" alt="Radio" class="playlist-image">
-                    <img src="imagen/12.jpg" alt="Radio" class="playlist-image">
-                    <img src="imagen/13.jpg" alt="Radio" class="playlist-image">
-                    <img src="imagen/14.jpg" alt="Radio" class="playlist-image">
-                    <img src="imagen/17.jpg" alt="Radio" class="playlist-image">
-
-                    <a href="#">Más</a>
+            <section class="album-section">
+                <h2>Popular albums<a href="#" class="view-all">Ver todos</a></h2>
+                <div class="album-list">
+                    <img src="imagen/11.jpg" alt="Álbum 1" class="album-image">
+                    <img src="imagen/12.jpg" alt="Álbum 1" class="album-image">
+                    <img src="imagen/13.jpg" alt="Álbum 1" class="album-image">
+                    <img src="imagen/14.jpg" alt="Álbum 1" class="album-image">
+                    <img src="imagen/15.jpg" alt="Álbum 1" class="album-image">
+                    <img src="imagen/16.jpg" alt="Álbum 1" class="album-image">
                 </div>
             </section>
-            <section>
-                <h2>Rock favoritos</h2>
-                <div class="playlist">
-                    <img src="imagen/1.png" alt="Radio" class="playlist-image">
-                    <img src="imagen/2.png" alt="Radio" class="playlist-image">
-                    <img src="imagen/3.jpeg" alt="Radio" class="playlist-image">
-                    <img src="imagen/4.png" alt="Radio" class="playlist-image">
-                    <img src="imagen/5.png" alt="Radio" class="playlist-image">
-                    <img src="imagen/6.png" alt="Radio" class="playlist-image">
-                    <a href="#">Más</a>
+            <section class="album-section">
+                <h2>Popular radio<a href="#" class="view-all">Ver todos</a></h2>
+                <div class="album-list">
+                    <img src="imagen/18.jpg" alt="Álbum 1" class="album-image">
+                    <img src="imagen/8.jpg" alt="Álbum 1" class="album-image">
+                    <img src="imagen/9.jpg" alt="Álbum 1" class="album-image">
+                    <img src="imagen/10.jpg" alt="Álbum 1" class="album-image">
+                    <img src="imagen/17.jpg" alt="Álbum 1" class="album-image">
+                    <img src="imagen/20.jpg" alt="Álbum 1" class="album-image">
+                </div>
+            </section>            
+            <section class="album-section">
+                <h2>Popular rock<a href="#" class="view-all">Ver todos</a></h2>
+                <div class="album-list">
+                    <img src="imagen/1.png" alt="Álbum 1" class="album-image">
+                    <img src="imagen/2.png" alt="Álbum 1" class="album-image">
+                    <img src="imagen/3.jpeg" alt="Álbum 1" class="album-image">
+                    <img src="imagen/4.png" alt="Álbum 1" class="album-image">
+                    <img src="imagen/5.png" alt="Álbum 1" class="album-image">
+                    <img src="imagen/6.png" alt="Álbum 1" class="album-image">
                 </div>
             </section>
         </main>
