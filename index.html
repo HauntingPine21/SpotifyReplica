@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="icon" href="imagen/spotify.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="top-menu">
+        <div class="logo">
+            <i class="fab fa-spotify"></i>
+        </div>
+    
+        <div class="top-menu-center">
+            <a href="#" class="home-button">
+                <i class="fas fa-home"></i>
+            </a>
+            <form action="#" method="get" class="search-form">
+                <input type="text" placeholder="¿Qué quieres reproducir?" class="search-bar">
+                <button type="submit" class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+    
+        <div class="top-menu-right">
+            <button class="sign-up">Sign Up</button>
+            <button class="log-in">Log In</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <aside class="aside active" id="aside">
+            <div class="head">
+                <i class='bx bx-library' id="menu"></i>  
+            </div>
+            <div class="options">
+                <div>
+                    <img src="imagen/reci3.png">
+                    <span class="option"></span>
+                </div>
+                 
+                <div>
+                    <img src="imagen/episodios.png">
+                    <span class="option"></span>
+                </div>
+        
+                <div>
+                    <img src="imagen/reci2.png">
+                    <span class="option"></span>
+                </div>
+        
+                <div>
+                    <img src="imagen/reci4.png">
+                    <span class="option"></span>
+                </div>
+        
+                <div>
+                    <img src="imagen/especial3.png">
+                    <span class="option"></span>
+                </div>
+                <div>
+                    <img src="imagen/reci6.png">
+                    <span class="option"></span>
+                </div>
+                <div>
+                    <img src="imagen/especial2.png">
+                    <span class="option"></span>
+                </div>
+              
+            </div>
+        </aside>
+        <main class="main-content">
+            <section class="artist-section">
+                <h2>Artistas del momento <a href="#" class="view-all">Ver todos</a></h2>
+                
+                <div class="artist-list">
+
+                    <img src="imagen/artis1.jpg" alt="Artista 1" class="artist-image">
+                    <img src="imagen/artis2.jpg" alt="Artista 3" class="artist-image">
+                    <img src="imagen/artis3.jpg" alt="Artista 3" class="artist-image">
+                    <img src="imagen/artis4.jpeg" alt="Artista 1" class="artist-image">
+                    <img src="imagen/artis5.png" alt="Artista 2" class="artist-image">
+                    <img src="imagen/artis6.jpeg" alt="Artista 3" class="artist-image">
+                </div>
+            </section>
+
+
+            <section class="album-section">
+                <h2>Creados para ti<a href="#" class="view-all">Mostrar todos</a></h2>
+                <div class="album-list">
+                    <div class="albumes">
+                        <img src="imagen/especial1.png" alt="Álbum 1" class="album-image">
+                        <p>Escucha las ultimas novedades</p>
+                    </div>
+
+                    <div class="albumes">
+                        <img src="imagen/especial2.png" alt="Álbum 1" class="album-image">
+                        <p>Todo tipo de música, <br>seleccionada por tu propio...</p>
+                    </div>
+
+                    <div class="albumes">
+                        <img src="imagen/especial3.png" alt="Álbum 1" class="album-image">
+                        <p>Ozuna, Rauw Alejandro, <br>Anuel AA y más</p>
+                    </div>
+
+                    <div class="albumes">
+                        <img src="imagen/especial4.png" alt="Álbum 1" class="album-image">
+                        <p>Tu combinado semanal de <br> música freca. Temas...</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="album-section">
+                <h2 class="titu">Emisoras recomendadas<a href="#" class="view-all">Mostrar todos</a></h2>
+                <div class="album-list">
+                   <div class="emisoras">
+
+                    <div class="albumes">
+                        <img src="imagen/emi1.png" alt="Álbum 1" class="album-image">
+                        <p>Con Xavi. Peso pluma, Tito<br>
+                        Double P y más</p>
+                    </div>
+
+                    <div class="albumes">
+                        <img src="imagen/emi2.png"alt="Álbum 1" class="album-image">
+                        <p>Con Plan B, Don Omar, Wisin<br>y Yandel y más</p>
+                    </div>
+
+                    <div class="albumes">
+                        <img src="imagen/emi3.png"alt="Álbum 1" class="album-image">
+                        <p>Con Quevedo, Bad Bunny,<br> KAROL G y más</p>
+                    </div>
+
+                    <div class="albumes">
+                        <img src="imagen/emi4.png" alt="Álbum 1" class="album-image">
+                        <p>Con Peso Pluma, Xavi, Tito<br> Double P y más</p>
+                    </div>
+
+                    <div class="albumes">
+                        <img src="imagen/emi5.png" alt="Álbum 1" class="album-image">
+                        <p>Con Xavi, Peso Pluma, Tito <br> Double P, y más</p>
+                    </div>
+
+                    <div class="albumes">
+                        <img src="imagen/emi6.png" alt="Álbum 1" class="album-image">
+                        <p>Con Bad Bunny, Quevedo, <br> JHAYCO y más</p>
+                    </div>
+
+                    <div class="albumes">
+                        <img src="imagen/emi7.png" alt="Álbum 1" class="album-image">
+                        <p>Con Peso Pluma, Tito Double <br> P, Natanael Cano y más</p>
+                    </div>
+                    
+                    
+      
+                </div>
+                </div>
+            </section> 
+
+            <section class="album-section">
+                <h2 class="titu">Escuchados recientemente<a href="#" class="view-all">Mostrar todos</a></h2>
+                <div class="album-list">
+                <div class="reciente">
+                    
+                    <div class="albumes">                    
+                        <img src="imagen/reci1.png" alt="Álbum 1" class="album-image">
+                        <h2 class="recien">Duelo</h2>
+                        <p>Nanpa Básico</p>
+                    </div>
+
+                    <div class="albumes">                    
+                        <img src="imagen/reci2.png" alt="Álbum 1" class="album-image">
+                        <h2 class="recien">Mix diario 5</h2>
+                        <p>Duki, Bizarrap, YSY A y más</p>
+                    </div>
+
+                    <div class="albumes">                    
+                        <img src="imagen/reci3.png" alt="Álbum 1" class="album-image">
+                        <h2 class="recien">Canciones que te gustan</h2>
+                        <p>2416 canciones</p>
+                    </div>
+
+                    <div class="albumes">                    
+                        <img src="imagen/reci4.png" alt="Álbum 1" class="album-image">
+                        <h2 class="recien">Mix diario 3</h2>
+                        <p>Gera MX, Robot95, Alemán y <br>más</p>
+                    </div>
+
+                    <div class="albumes">                    
+                        <img src="imagen/reci5.png" alt="Álbum 1" class="album-image">
+                        <h2 class="recien">Mix diario 2</h2>
+                        <p>Ozuna, Rauw Alejandro, <br> Anuel AA y más</p>
+                    </div>
+
+                    <div class="albumes">                    
+                        <img src="imagen/reci6.png" alt="Álbum 1" class="album-image">
+                        <h2 class="recien">Mix diario 4</h2>
+                        <p>Mora, Feid, Sech y más</p>
+                    </div>
+
+                    <div class="albumes">                    
+                        <img src="imagen/reci7.png" alt="Álbum 1" class="album-image">
+                        <h2 class="recien">Como Pacman</h2>
+                        <p>Alemán, Gera Mx</p>
+                    </div> 
+
+                </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+<!-- HTML -->
+<footer class="spotify-footer">
+    <div class="song-info">
+      <img src="imagen/joji.jpg" alt="JojiSong" class="cover-art" />
+      <div class="song-details">
+        <span class="song-name">Ew</span>
+        <span class="artist-name">Joji</span>
+      </div>
+    </div>
+  
+    <div class="playback-section">
+      <div class="playback-controls">
+        <button class="control-button" id="shuffle"><i class="bi bi-shuffle"></i></button>
+        <button class="control-button" id="previous"><i class="bi bi-skip-start"></i></button>
+        <button class="control-button" id="play"><i class="bi bi-play-circle"></i></button>
+        <button class="control-button" id="next"><i class="bi bi-skip-end"></i></button>
+        <button class="control-button" id="repeat"><i class="bi bi-repeat"></i></button>
+      </div>
+  
+      <!-- Barra de progreso -->
+      <div class="progress-bar-container">
+        <span class="current-time">0:00</span>
+        <input type="range" class="progress-bar" min="0" max="100" value="0" />
+        <span class="total-time">3:45</span>
+      </div>
+    </div>
+  
+    <div class="volume-control">
+      <button class="control-button" id="mute">🔇</button>
+      <input type="range" min="0" max="100" value="50" class="volume-slider" />
+    </div>
+  </footer>
+  
+  
+<script src="menu.js"></script>
+</body>
+</html>
