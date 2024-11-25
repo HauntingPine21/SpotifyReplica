@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SpotifyReplica
 
 Mi proyecto se basó en una pequeña copia del index de spotify, algo un poco enredoso pero que poco

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 .head img{
     width: 50px;
@@ -76,7 +76,7 @@ display: none;
 
 .aside.active .head i{
     margin: auto;
-=======
+}
 
 .head img{
     width: 50px;
@@ -154,5 +154,5 @@ display: none;
 
 .aside.active .head i{
     margin: auto;
->>>>>>> eeb1752b36ee73f2769123d2d7b03fe079d09d95
+
 }
